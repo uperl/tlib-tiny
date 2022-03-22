@@ -1,7 +1,13 @@
 use Test2::V0 -no_srand => 1;
-use tlib::tiny;
 
-ok 1, 'todo';
+subtest 'compiles okay' => sub {
+
+  local $@ = '';
+  eval { require tlib::tiny };
+  is "$@", '';
+
+};
+
 
 done_testing;
 
