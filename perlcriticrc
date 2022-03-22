@@ -19,8 +19,6 @@ only = 1
 [Community::POSIXImports]
 [Community::PackageMatchesFilename]
 [Community::PreferredAlternatives]
-[Community::StrictWarnings]
-extra_importers = Test2::V0
 [Community::Threads]
 [Community::Wantarray]
 [Community::WarningsSwitch]
