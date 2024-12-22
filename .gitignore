@@ -2,4 +2,7 @@ tlib-tiny-*
 /.build/
 *.swp
 
-
+/tlib-tiny-*
+/.build
+*.old
+*.orig
